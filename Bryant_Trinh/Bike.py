@@ -12,12 +12,12 @@ class bike:
 
 	def ride(self):
 		print("Riding")
-		miles+=10
+		self.miles+=10
 		return self
 
 	def reverse(self):
 		print("Reversing")
-		mile-=5
+		self.mile-=5
 		return self
 
 bike1 = bike(220,"30 MPH")
